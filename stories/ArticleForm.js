@@ -9,4 +9,6 @@ storiesOf('게시글 작성 폼', module)
   ))
   .add('error message', () => (
     <ArticleForm errorMsg="필드를 모두 입력하세요." />
+  )).add('creating', () => (
+    <ArticleForm creating />
   ));
