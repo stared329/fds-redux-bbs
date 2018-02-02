@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import { List } from 'semantic-ui-react';
 
 
-export default class LoginScreen extends Component {
+export default class ArticleList extends Component {
   static defaultProps = {
     articles: [],
-    onMount: () => {},
+    // onMount: () => {},
   }
-  componentDidMount() {
-    this.props.onMount();
-  }
+  // componentDidMount() {
+  //   this.props.onMount();
+  // }
 
   render() {
     const { articles } = this.props;
